@@ -12,7 +12,6 @@ function searchbox(){
         document.getElementById("cityname").innerText = cityName;
         console.log(cityName);
         const tempareture = tempdata.main.temp;
-        // document.getElementById("tempa-data").innerText = tempareture;
         document.getElementById("tempa-data").innerText = tempareture;
         // console.log(tempareture);
         const condition = tempdata.weather[0].main;
